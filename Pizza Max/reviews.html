@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pageheader">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="Location.html">Locate Us</a></li>
+            <li class="coming-soon">Services</li>
+            <li class="coming-soon">Blogs</li>
+            <li class="coming-soon">Customer Care</li>
+            <li class="coming-soon">Customer Care</li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="help.html">Help</a></li>
+        </ul>
+        <h1>Review Us!</h1>
+    </div>
+    <p>Please Review us by filling in the form below.</p>
+    <form method="post">
+        <fieldset>
+
+            <legend><b>Customer Deatils</b></legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" maxlength="15" required="required"/>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" maxlength="15"/><br/><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" maxlength="30" required="required"/>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" maxlength="11" required="required"/><br/><br/>
+            
+        </fieldset><br/>
+        <fieldset id="two">
+            <legend><b>Your Reviews</b></legend>
+            <label for="branch">Branch</label>
+            <select id="branch" name="branch">
+                <option value="Airport">Airport</option>
+                <option value="Johar">Johar</option>
+                <option value="Maskan">Maskan</option>
+                <option value="N.Nazimabad">N.Nazimabad</option>
+                <option value="Shaheed e Millat">Shaheed e Millat</option>
+            </select>
+            <label for="day">Date</label>
+            <input type="date" id="day" name="day" required="required"/>
+            <p>Delivery/Take Out <br/>
+                <input type="radio" id="type" name="type" value="D"/>
+                <label for="type">Delivery</label><br/>
+                <input type="radio" id="type" name="type" value="T"/>
+                <label for="type">TakeOut</label>
+
+            </p>
+            <p><b>Food Quality</b> <br/>
+                <input type="radio" id="quality" name="quality" value="E"/>
+                <label for="type">Excellent</label>
+                <input type="radio" id="quality" name="quality" value="G"/>
+                <label for="type">Good</label>
+                <input type="radio" id="quality" name="quality" value="A"/>
+                <label for="type">Average</label>
+                <input type="radio" id="quality" name="quality" value="D"/>
+                <label for="type">Dissatisfied</label>
+            </p>
+            <p><b>Overall service quality</b> <br/>
+                <input type="radio" id="service" name="service" value="E"/>
+                <label for="type">Excellent</label>
+                <input type="radio" id="service" name="service" value="G"/>
+                <label for="type">Good</label>
+                <input type="radio" id="service" name="service" value="A"/>
+                <label for="type">Average</label>
+                <input type="radio" id="service" name="service" value="D"/>
+                <label for="type">Dissatisfied</label>
+            </p>
+            <p><b>Speed of service</b> <br/>
+                <input type="radio" id="speed" name="speed" value="E"/>
+                <label for="type">Excellent</label>
+                <input type="radio" id="speed" name="speed" value="G"/>
+                <label for="type">Good</label>
+                <input type="radio" id="speed" name="speed" value="A"/>
+                <label for="type">Average</label>
+                <input type="radio" id="speed" name="speed" value="D"/>
+                <label for="type">Dissatisfied</label>
+            </p>
+            
+        
+            <p>
+                Any comments, questions or suggestions: <br/>
+                <textarea name="comments" rows="10" cols="60">Enter your comments</textarea>
+            </p> 
+        </fieldset>
+        <p>
+            <input type="submit" name="submit" value="Submit"/>
+        </p>   
+    </form>
+    <footer>
+        <address>
+            Address: Pizza Max headquarters I.I Chandrigarh Road, Karachi city, Pakistan<br/>
+            Email: <a href="mailto:pizzamax@gmail.com">pizzamax@gmail.com</a><br/>
+            Contact:(021)-111-545-545
+        </address>
+
+    </footer>
+</body>
+</html>
