@@ -11,7 +11,7 @@ A replica of the Daraz e-commerce website's homepage, focusing on layout and des
 ### Features
 + Responsive design compatible with various devices
 + Simulated product listings and categories
-+ Interactive navigation menu
+
 ### Screenshot
  <img width="947" alt="ss-1" src="https://github.com/farzeenshahid/frontendwebsites/assets/125720802/584bf762-1169-4afa-8030-de0198d6076c">
  
