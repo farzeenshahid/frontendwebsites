@@ -25,7 +25,7 @@ A replica of the Pizza Max website, showcasing the menu and order interface.
 + Interactive menu with product descriptions and prices
 + Review form simulation
 + Responsive layout for different screen sizes
-Screenshot
+### Screenshot
 <img width="947" alt="ss-1" src="https://github.com/farzeenshahid/frontendwebsites/assets/125720802/90c6a4a9-abce-4e82-a7ae-c0a00f4459a2">
 
 ### Live Demo
